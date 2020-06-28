@@ -1,0 +1,23 @@
+{
+  "name": "search-web-scraper",
+  "version": "1.0.0",
+  "description": "Scrape search results from Google search page.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "run": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorishr/search-web-scraper.git"
+  },
+  "author": "Joris Raymaekers <joris@jorisr.com> (jorisr.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorishr/search-web-scraper/issues"
+  },
+  "homepage": "https://github.com/jorishr/search-web-scraper#readme",
+  "dependencies": {
+    "puppeteer": "^4.0.1"
+  }
+}
